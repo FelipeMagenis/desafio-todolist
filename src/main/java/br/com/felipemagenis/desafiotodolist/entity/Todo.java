@@ -27,13 +27,19 @@ public class Todo {
 	}
 
 	public Todo(Long id, @NotBlank String name, @NotBlank String description, boolean finished, int priority) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.finished = finished;
 		this.priority = priority;
 	}
+	
+	public Todo(String name, String description, boolean finished, int priority) {
+		this.name = name;
+		this.description = description;
+		this.finished = finished;
+		this.priority = priority;
+	  }
 
 	public Long getId() {
 		return id;

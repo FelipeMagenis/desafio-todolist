@@ -1,12 +1,12 @@
 DELETE FROM todos;
 
-INSERT INTO todos (id, nome, descricao, realizado, prioridade)
- VALUES (9995, '@FelipeMagenis', 'Curtir', false, 1);
-INSERT INTO todos (id, nome, descricao, realizado, prioridade)
- VALUES (9996, '@FelipeMagenis', 'Comentar', false, 1);
-INSERT INTO todos (id, nome, descricao, realizado, prioridade)
- VALUES (9997, '@FelipeMagenis', 'Compartilhar', false, 1);
-INSERT INTO todos (id, nome, descricao, realizado, prioridade)
- VALUES (9998, '@FelipeMagenis', 'Se Inscrever', false, 1);
-INSERT INTO todos (id, nome, descricao, realizado, prioridade)
- VALUES (9999, '@FelipeMagenis', 'Ativar as Notificações', false, 1);
+INSERT INTO todos (id, name, description, finished, priority)
+ VALUES (9995, 'Prova', 'Fazer', false, 1);
+INSERT INTO todos (id, name, description, finished, priority)
+ VALUES (9996, 'Trabalho', 'Terminar', false, 1);
+INSERT INTO todos (id, name, description, finished, priority)
+ VALUES (9997, 'Documentar APIs e endpoints', 'Hoje', false, 1);
+INSERT INTO todos (id, name, description, finished, priority)
+ VALUES (9998, 'Refatorar código para melhorar a performance', 'Final de Semana', false, 1);
+INSERT INTO todos (id, name, description, finished, priority)
+ VALUES (9999, 'Atualizar bibliotecas e dependências', 'Testes', false, 1);
